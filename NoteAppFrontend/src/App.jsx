@@ -4,15 +4,13 @@ import {Routes, Route, Link} from 'react-router-dom'
 import Login from './Components/Login'
 import Profile from './Components/Profile'
 import Register from './Components/Register'
+import Home from './Components/Home'
 
 function App() {
 
   return (
     <div>
-      {/* <nav>
-        <Link to="/"><Login/></Link>
-      </nav> */}
-      {/* <Login/> */}
+      <Home/>
 
       <Routes>
         <Route path="/login" element={<Login/>}/>
